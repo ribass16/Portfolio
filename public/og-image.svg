@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <circle cx="1050" cy="80" r="220" fill="#4f46e5" opacity="0.16"/>
+  <text x="90" y="300" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="64" fill="#fafafa">Guilherme Ribeiro</text>
+  <text x="90" y="360" font-family="Arial, Helvetica, sans-serif" font-weight="500" font-size="34" fill="#818cf8">Junior Software Developer</text>
+  <text x="90" y="420" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="24" fill="#a1a1aa">React · Next.js · TypeScript · Porto, Portugal</text>
+  <text x="90" y="560" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-size="18" fill="#52525b">[EDITAR] Substitui esta imagem por um og-image.png para melhor suporte</text>
+</svg>

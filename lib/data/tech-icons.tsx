@@ -1,0 +1,38 @@
+import type { IconType } from "react-icons";
+import {
+  SiReact,
+  SiNextdotjs,
+  SiTypescript,
+  SiJavascript,
+  SiHtml5,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiSupabase,
+  SiGit,
+  SiN8N,
+  SiCss,
+  SiLaravel,
+  SiMysql,
+  SiPostgresql,
+  SiKotlin,
+  SiFirebase,
+} from "react-icons/si";
+
+export const techIcons: Record<string, IconType> = {
+  React: SiReact,
+  "Next.js": SiNextdotjs,
+  TypeScript: SiTypescript,
+  JavaScript: SiJavascript,
+  "HTML/CSS": SiHtml5,
+  "Tailwind CSS": SiTailwindcss,
+  "Node.js": SiNodedotjs,
+  Supabase: SiSupabase,
+  Git: SiGit,
+  n8n: SiN8N,
+  CSS: SiCss,
+  Laravel: SiLaravel,
+  MySQL: SiMysql,
+  PostgreSQL: SiPostgresql,
+  Kotlin: SiKotlin,
+  Firebase: SiFirebase,
+};
