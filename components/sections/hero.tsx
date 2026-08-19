@@ -78,7 +78,7 @@ export function Hero() {
           {dict.hero.ctaProjects}
           <ArrowRight className="h-4 w-4" />
         </Button>
-        <Button href="/cv-guilherme-ribeiro.pdf" variant="outline" external>
+        <Button href="/cv-guilherme-ribeiro.pdf" variant="outline" download>
           <Download className="h-4 w-4" />
           {dict.hero.ctaResume}
         </Button>

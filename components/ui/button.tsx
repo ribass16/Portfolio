@@ -30,6 +30,7 @@ interface ButtonProps
     VariantProps<typeof buttonVariants> {
   href?: string;
   external?: boolean;
+  download?: boolean | string;
 }
 
 export function Button({
@@ -38,6 +39,7 @@ export function Button({
   size,
   href,
   external,
+  download,
   ...props
 }: ButtonProps) {
   const classes = cn(buttonVariants({ variant, size }), className);
@@ -50,13 +52,14 @@ export function Button({
           className={classes}
           target="_blank"
           rel="noopener noreferrer"
+          download={download}
         >
           {props.children as React.ReactNode}
         </a>
       );
     }
     return (
-      <Link href={href} className={classes}>
+      <Link href={href} className={classes} download={download as never}>
         {props.children as React.ReactNode}
       </Link>
     );
